@@ -19,7 +19,8 @@
       "Bash(docker pull:*)",
       "Bash(git -C \"G:\\\\\\\\PythonProjects\\\\\\\\JMVPN - Android\" remote -v)",
       "Bash(git -C \"G:/PythonProjects/JMVPN - Android\" status)",
-      "Bash(git -C \"g:/PythonProjects/JMVPN\" remote -v)"
+      "Bash(git -C \"g:/PythonProjects/JMVPN\" remote -v)",
+      "Bash(gh repo:*)"
     ]
   }
 }
