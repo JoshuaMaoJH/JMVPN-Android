@@ -25,6 +25,9 @@ android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
+android.sdk = 33
+android.build_tools_version = 33.0.2
+android.accept_sdk_license = True
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.kivy.android.PythonActivity
