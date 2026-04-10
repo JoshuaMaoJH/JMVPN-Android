@@ -20,7 +20,8 @@
       "Bash(git -C \"G:\\\\\\\\PythonProjects\\\\\\\\JMVPN - Android\" remote -v)",
       "Bash(git -C \"G:/PythonProjects/JMVPN - Android\" status)",
       "Bash(git -C \"g:/PythonProjects/JMVPN\" remote -v)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
