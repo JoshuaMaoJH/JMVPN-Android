@@ -53,6 +53,10 @@ jobs:
             "platforms;android-33" \
             "build-tools;33.0.2"
 
+          # Create legacy tools/bin symlink so buildozer can find sdkmanager
+          mkdir -p $ANDROID_SDK_ROOT/tools/bin
+          ln -sf $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager $ANDROID_SDK_ROOT/tools/bin/sdkmanager
+
           # Verify aidl exists
           ls -la $ANDROID_SDK_ROOT/build-tools/33.0.2/aidl
 
